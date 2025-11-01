@@ -37,7 +37,7 @@ After 5 Questions → Show Summary (Accuracy, Avg Time, Recommended Level) → E
 - Summary Module(Displays accuracy, average time, and next suggested level)   
 
 5. Adaptive Logic Used (Rule-Based):
-The prototype uses a simple rule-based approach:
+- The prototype uses a simple rule-based approach:
 - If the last two answers are correct, increase difficulty (Easy → Medium → Hard)
 - If the last two are incorrect, decrease difficulty
 - Otherwise, keep the same level
@@ -63,5 +63,5 @@ This approach is simple, easy to understand, and works well for a minimal protot
 - Add more subjects like English, Science, or Logical Puzzles
 
 9. Conclusion:
-This prototype demonstrates how adaptive learning can be implemented in a simple and effective way. While basic, it successfully personalizes learning difficulty and creates a foundation for future AI-powered educational systems.
+- This prototype demonstrates how adaptive learning can be implemented in a simple and effective way. While basic, it successfully personalizes learning difficulty and creates a foundation for future AI-powered educational systems.
 
