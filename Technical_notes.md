@@ -30,12 +30,11 @@ Next Question
 After 5 Questions → Show Summary (Accuracy, Avg Time, Recommended Level) → End
 
 4. Core Components:
-| Component           | Description                                                  |
-| ------------------- | ------------------------------------------------------------ |
-| Puzzle Generator    | Creates math questions dynamically based on difficulty level |
-| Performance Tracker | Stores correctness and time taken for each answer            |
-| Adaptive Engine     | Uses rule-based logic to change difficulty                   |
-| Summary Module      | Displays accuracy, average time, and next suggested level    |
+- Component             Description                                                  
+- Puzzle Generator      Creates math questions dynamically based on difficulty level.
+- Performance Tracker   Stores correctness and time taken for each answer.           
+- Adaptive Engine       Uses rule-based logic to change difficulty.               
+- Summary Module        Displays accuracy, average time, and next suggested level.   
 
 5. Adaptive Logic Used (Rule-Based):
 The prototype uses a simple rule-based approach:
