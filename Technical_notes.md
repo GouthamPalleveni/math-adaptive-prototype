@@ -6,13 +6,13 @@ The system adjusts the difficulty of questions based on student performance to k
 
 2. System Architecture:
 math-adaptive-prototype/
-├─ README.md
-├─ requirements.txt
-└─ src/
-   ├─ main.py               → Runs the application
-   ├─ puzzle_generator.py   → Generates puzzles
-   ├─ tracker.py            → Tracks answers and response time
-   └─ adaptive_engine.py    → Decides next difficulty level
+- README.md
+- requirements.txt
+- src/
+   - main.py               → Runs the application
+   - puzzle_generator.py   → Generates puzzles
+   - tracker.py            → Tracks answers and response time
+   - adaptive_engine.py    → Decides next difficulty level
 
 3. Flow Diagram:
 Start → Enter Name → Select Difficulty (Easy/Medium/Hard)
