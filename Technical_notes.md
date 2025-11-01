@@ -30,11 +30,11 @@ Next Question
 After 5 Questions → Show Summary (Accuracy, Avg Time, Recommended Level) → End
 
 5. Core Components:
-- Component             - Description                                                  
-- Puzzle Generator      Creates math questions dynamically based on difficulty level.
-- Performance Tracker   Stores correctness and time taken for each answer.           
-- Adaptive Engine       Uses rule-based logic to change difficulty.               
-- Summary Module        Displays accuracy, average time, and next suggested level.   
+- Component and Description                                                  
+- Puzzle Generator(Creates math questions dynamically based on difficulty level)
+- Performance Tracker(Stores correctness and time taken for each answer)           
+- Adaptive Engine(Uses rule-based logic to change difficulty)               
+- Summary Module(Displays accuracy, average time, and next suggested level)   
 
 5. Adaptive Logic Used (Rule-Based):
 The prototype uses a simple rule-based approach:
@@ -44,19 +44,17 @@ The prototype uses a simple rule-based approach:
 This approach is simple, easy to understand, and works well for a minimal prototype.
 
 6. Key Performance Metrics:
-| Metric                | Purpose                                             |
-| --------------------- | --------------------------------------------------- |
-| Accuracy (%)          | Measures how many questions were answered correctly |
-| Response Time         | Tracks how fast the student answers each question   |
-| Difficulty Transition | Shows how the learning adjusts to performance       |
-| Recommended Level     | Final suggested difficulty based on performance     |
+- Metric and Purpose
+- Accuracy (Measures how many questions were answered correctly)
+- Response Time (Tracks how fast the student answers each question)
+- Difficulty Transition (Shows how the learning adjusts to performance)
+- Recommended Level (Final suggested difficulty based on performance)
 
 7. Why Rule-Based Approach?
-| Reason               | Explanation                                                |
-| -------------------- | ---------------------------------------------------------- |
-| Simple & Clear       | Easy to implement and understand without complex ML        |
-| No Dataset Required  | Works without training data                                |
-| Real-Time Adaptation | Immediately adjusts difficulty based on user’s performance |
+- Reason and Explanation                                              
+- Simple & Clear (Easy to implement and understand without complex ML)
+- No Dataset Required (Works without training data)                              
+- Real-Time Adaptation (Immediately adjusts difficulty based on user’s performance)
 
 8. Future Enhancements:
 - Add GUI using Streamlit or Tkinter
