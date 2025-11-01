@@ -1,0 +1,3 @@
+# No external third-party libraries required
+# Default Python libraries are sufficient for this project
+
