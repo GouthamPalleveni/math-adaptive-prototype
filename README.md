@@ -18,17 +18,17 @@ The difficulty of questions adjusts automatically based on the learner’s perfo
 
 ## Project Structure
 src/
-├── main.py # Runs the program
-├── puzzle_generator.py # Creates puzzles
-├── tracker.py # Tracks performance
-└── adaptive_engine.py # Adjusts difficulty
+- main.py # Runs the program
+- puzzle_generator.py # Creates puzzles
+- tracker.py # Tracks performance
+- adaptive_engine.py # Adjusts difficulty
 css
 ##  How to Run
 ```
 pip install -r requirements.txt
 python src/main.py
 ```
-Future Improvements
+Future Improvements:
 - Add GUI with Streamlit
 - Save data to file or database
 - Use ML model (Decision Tree, Logistic Regression)
