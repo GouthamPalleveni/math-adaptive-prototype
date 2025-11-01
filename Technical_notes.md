@@ -16,17 +16,17 @@ math-adaptive-prototype/
 
 3. Flow Diagram:
 - Start → Enter Name → Select Difficulty (Easy/Medium/Hard)
-      ↓
+      -↓
 - Generate Puzzle (based on difficulty)
-      ↓
+      -↓
 - User Solves → Record Response Time & Correctness
-      ↓
+      -↓
 - Adaptive Engine:
     - If performance good → Increase difficulty
     - If performance poor → Decrease difficulty
-      ↓
+      -↓
 - Next Question
-      ↓
+      -↓
 - After 5 Questions → Show Summary (Accuracy, Avg Time, Recommended Level) → End
 
 5. Core Components:
