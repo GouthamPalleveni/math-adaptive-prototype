@@ -15,19 +15,19 @@ math-adaptive-prototype/
    - adaptive_engine.py    → Decides next difficulty level
 
 3. Flow Diagram:
-Start → Enter Name → Select Difficulty (Easy/Medium/Hard)
+- Start → Enter Name → Select Difficulty (Easy/Medium/Hard)
       ↓
-Generate Puzzle (based on difficulty)
+- Generate Puzzle (based on difficulty)
       ↓
-User Solves → Record Response Time & Correctness
+- User Solves → Record Response Time & Correctness
       ↓
-Adaptive Engine:
+- Adaptive Engine:
     - If performance good → Increase difficulty
     - If performance poor → Decrease difficulty
       ↓
-Next Question
+- Next Question
       ↓
-After 5 Questions → Show Summary (Accuracy, Avg Time, Recommended Level) → End
+- After 5 Questions → Show Summary (Accuracy, Avg Time, Recommended Level) → End
 
 5. Core Components:
 - Component and Description                                                  
